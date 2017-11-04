@@ -6,7 +6,7 @@
   "scripts": {
     "gulp": "gulp",
     "gulp-watch": "gulp watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "babel": "babel src/script -d build/script"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,15 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.9.0",
     "gulp-less": "^3.3.2"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
