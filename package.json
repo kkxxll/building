@@ -1,0 +1,30 @@
+{
+  "name": "building",
+  "version": "1.0.0",
+  "description": "Local building",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "gulp-watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkxxll/building.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkxxll/building/issues"
+  },
+  "homepage": "https://github.com/kkxxll/building#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-less": "^3.3.2"
+  }
+}
